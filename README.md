@@ -4,8 +4,8 @@ Este proyecto es un starter kit para desarrollar proyectos web utilizando **Webp
 
 ## Instalación
 1. Clonar este repositorio.
-2. Ejecutar npm install en la carpeta raíz del proyecto.
-3. Ejecutar npm run dev para iniciar el servidor local.
+2. Ejecutar **npm install** en la carpeta raíz del proyecto.
+3. Ejecutar **npm run dev** para iniciar el servidor local.
 
 ## Uso
 Estructura de carpetas
