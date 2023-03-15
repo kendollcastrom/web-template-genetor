@@ -2,7 +2,7 @@
 
 Este proyecto es un starter kit para desarrollar proyectos web utilizando **Webpack** como herramienta de construcción. Incluye configuraciones básicas para compilar y componer HTML utilizando Pug, CSS utilizando SCSS y JavaScript utilizando Babel. Además, cuenta con un servidor de desarrollo local que se puede ejecutar con Live Server y una configuración para construir una versión optimizada del proyecto para producción. La estructura de carpetas del proyecto está diseñada para una mejor organización y escalabilidad del código.
 
-#Versión de node.js
+## Versión de node.js
 v: 18.12.1
 
 ## Instalación
