@@ -46,7 +46,7 @@ Estructura de carpetas
 - Enviar un pull request a la rama principal del repositorio.
 
 ## Crear commits
-Escribir buenos mensajes de commit es importante para que el histórico de tu proyecto sea **legible**, **fácilmente escaneable** y, **claro**, entendible por cualquier persona que participe en el proyecto.
+Escribir buenos mensajes de commit es importante para que el histórico de tu proyecto sea **legible**, **fácilmente escaneable** y, **claro**, entendible por cualquier persona que participe en el proyecto. **Todos los commits se harán en Inglés**.
 
 [Commits Midudev](https://midu.dev/buenas-practicas-escribir-commits-git/)
 
