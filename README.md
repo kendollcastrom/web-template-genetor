@@ -13,30 +13,32 @@ v: 18.12.1
 ## Uso
 Estructura de carpetas
 .
-├── src
-│   ├── js
-│   │   ├── components
-│   │   ├── index.js
-│   │   └── utils
-│   ├── styles
-│   │   ├── abstracts
-│   │   ├── base
-│   │   ├── components
-│   │   ├── layout
-│   │   ├── pages
-│   │   ├── themes
-│   │   ├── vendors
-│   │   └── main.scss
-│   └── templates
-│       ├── includes
-│       ├── layouts
-│       └── pages
-├── public
-│   ├── index.html
-│   ├── bundle.js
-│   └── styles.css
-├── webpack.config.js
-└── package.json
+src
+  js
+    components
+      index.js
+      utils
+  styles
+      abstracts
+      base
+      components
+      layout
+      pages
+      themes
+      vendors
+      main.scss
+      
+  templates
+      includes
+      layouts
+          pages
+  public
+      index.html
+      bundle.js
+      styles.css
+      
+  webpack.config.js
+  package.json
 
 ## Comandos de NPM
 - **npm run dev**: Inicia el servidor local en **http://localhost:3000** y habilita la recarga automática del navegador cuando se guardan cambios en los archivos.
