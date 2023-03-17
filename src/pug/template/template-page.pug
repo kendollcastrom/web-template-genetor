@@ -1,0 +1,15 @@
+html(lang="es")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="/src/assets/scss/styles.scss")
+    title My App
+  body
+    header
+      include ../components/header.html
+      h1 My App
+    main
+      block content
+    footer
+      include ../components/footer.html
+      p Copyright © My App

@@ -4,7 +4,7 @@
   "description": "Template bundle to create websites",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack serve --mode development --open --watch-files \"src/**/*.js\"",
+    "dev": "webpack serve --mode development --open --watch-files \"src/**/*.js\" --watch",
     "build": "webpack"
   },
   "author": "kendollcastro",

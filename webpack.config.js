@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  entry: './src/js/index.js',
+  entry: './src/assets/js/index.js',
   output: {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js',
@@ -32,7 +32,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: './src/pug/index.pug',
+      template: './src/pug/template/template-page.pug',
       inject: true,
     }),
     new MiniCssExtractPlugin({
@@ -43,7 +43,7 @@ module.exports = {
     static: {
       directory: path.join(__dirname, 'dist'),
     },
-    port: 3000, // cambiar el puerto si se desea
+    port: 3200, // cambiar el puerto si se desea
     open: true, // abrir automáticamente el navegador
   },
 };
